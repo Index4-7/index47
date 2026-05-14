@@ -21,6 +21,8 @@
         .container {
             text-align: center;
             transform: scale(0.7142857); /* 1.75x smaller */
+            position: relative;
+            z-index: 1;
         }
 
         .logo-wrapper {
@@ -112,10 +114,22 @@
     <div class="title">INDEX47</div>
 
     <div class="search-bar">
-        <input type="text" placeholder="Search Index47..." />
+        <input id="search" type="text" placeholder="Search Index47..." onkeydown="handleSearch(event)" />
     </div>
 
 </div>
+
+<script>
+    function handleSearch(event) {
+        if (event.key === "Enter") {
+            const query = document.getElementById("search").value.trim().toLowerCase();
+
+            if (query === "opr") {
+                window.location.href = "opr.html";
+            }
+        }
+    }
+</script>
 
 </body>
 </html>
