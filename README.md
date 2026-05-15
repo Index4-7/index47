@@ -19,7 +19,7 @@ definitions, or acroynyms. This website simply solves all of these problems!
 ## EMBEDDING LINKS 
  Embedding links can only happen within the text box description, if needed do like so, at any point in the description:
             REPLACE JUST ftcscout.org WITH LINK, NOT THE QUOTES, the second link paste should not have extra characters
-           (e.g. https://youtube.com/dlkdsjaJ should become youtube.com
+           (e.g. https://youtube.com/dlkdsjaJ should become youtube.com)
             
  <img width="466" height="62" alt="image" src="https://github.com/user-attachments/assets/def1fb60-d108-407e-b7ee-e3504397f70e" />
 
