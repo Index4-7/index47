@@ -1,3 +1,4 @@
+
 # ABOUT
 Index47 was started in May of 2026, by programmers on 13100 47 Beavers. 
 This was started through observations that many people in the FTC community are not always caught up with references,
@@ -5,7 +6,7 @@ definitions, or acroynyms. This website simply solves all of these problems!
 
 # CONTRIBUTING
  When contributing... determine whether you want to make a new search, or work on exisiting. If exisiting, you can just skip these steps and make a pull request!
-Watch: for a simple demonstration instead of reading all this
+## Watch video at the bottom for a simple demonstration instead of reading all this
  1. Ask a developer if this is an approved topic
  2. Locate the contributing folder of index47
  3. Open the folder to reveal the template
