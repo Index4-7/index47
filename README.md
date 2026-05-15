@@ -17,7 +17,7 @@ definitions, or acroynyms. This website simply solves all of these problems!
 ## EMBEDDING LINKS 
  Embedding links can only happen within the text box description, if needed do like so, at any point in the description:
             REPLACE JUST ftcscout.org WITH LINK, NOT THE QUOTES
-       ####     <a href="https://ftcscout.org" target="_blank">ftcscout.org</a>
-       ####     <a href="https://link" target="_blank">link/a>
+            <img width="466" height="62" alt="image" src="https://github.com/user-attachments/assets/def1fb60-d108-407e-b7ee-e3504397f70e" />
+
 
     
