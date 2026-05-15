@@ -4,10 +4,14 @@ This was started through observations that many people in the FTC community are 
 definitions, or acroynyms. This website simply solves all of these problems!
 
 # CONTRIBUTING
- When contributing, use the templete located in contributing, make sure that formatting of text, textboxes, links, and fonts are uniform although this should be implied through the templete
- 
- Pick the file in the folder only if you are adding a NEW FILE, if editing old file feel free to skip this step, but inform developers before opening a pull request if this is the case
- 
- After a sucessful contribution, feel free to inform any developer to receive a helper role, you earned it!
+ When contributing... determine whether you want to make a new search, or work on exisiting. If exisiting, you can just skip these steps and make a pull request!
+ 1. Ask a developer if this is an approved topic
+ 2. Locate the contributing folder of index47
+ 3. Open the folder to reveal the template
+ 4. Copy all of template.html and paste it into a new file, named [Search].html within the docs folder, not contributing
+ 5. All comments on template are to be adapted to your requested search, remove all instances (except html starter) of <!-- and --> 
+ 6. If links need to be embedded, follow guidelines on line 135 and 136
+ 7. Please ask questions if confused, do NOT pull request if uncertain
+ 8. After contributing, you will get a helper role on the discord, your earned it! ;)
 
     
