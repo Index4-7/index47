@@ -25,5 +25,7 @@ definitions, or acroynyms. This website simply solves all of these problems!
             
  <img width="466" height="62" alt="image" src="https://github.com/user-attachments/assets/def1fb60-d108-407e-b7ee-e3504397f70e" />
 
+https://github.com/user-attachments/assets/fb531c18-b55e-44ff-8b1f-0498fa883317
+
 
     
