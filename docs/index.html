@@ -17,9 +17,11 @@
 
 <div class="top">
 
-    <button class="btn" onclick="document.body.classList.toggle('light')">◐</button>
+    <button class="btn" id="themeBtn" onclick="toggleTheme()">◐</button>
 
     <button class="btn" onclick="openAbout()">?</button>
+
+    <button class="btn" onclick="openCredits()">✦</button>
 
     <a class="btn" href="https://github.com/index-47/index47" target="_blank">
         <img src="github.png" style="width:20px;height:20px;filter:drop-shadow(0 0 2px white);">
@@ -36,7 +38,7 @@
 
     <h1>INDEX47</h1>
 
-    <p>Your FTC glossary founded by team 13100</p>
+    <p>Your FTC Glossary by Team 13100</p>
 
     <div class="search">
 
@@ -54,6 +56,24 @@
         <p class="muted">
             Index47 was started in May of 2026, by programmers on 13100 47 Beavers. This was started through observations that many people in the FTC community are not always caught up with references, definitions, or acronyms. This website simply solves all of these problems!
         </p>
+
+        <hr class="credits-divider">
+        <p class="muted" style="margin-bottom:8px"><strong>How to use</strong></p>
+        <p class="muted">Type a keyword or acronym into the search bar (e.g. <code>pid</code> or <code>swerve</code>), click a result to open its page, and hit ← Return to come back. Toggle light/dark mode with the ◐ button. Your preference is saved.</p>
+    </div>
+</div>
+
+<div id="credits">
+    <div class="about-box">
+        <button class="close" onclick="closeCredits()">✕</button>
+        <h2>Contributors</h2>
+        <div class="credits-list" style="margin-top:14px">
+            <div class="contributor">
+                <span class="contributor-name">name</span>
+                <span class="contributor-role">role</span>
+            </div>
+            <!-- To add a contributor, copy a .contributor div and fill in name + role -->
+        </div>
     </div>
 </div>
 
@@ -123,12 +143,30 @@
         }
     }
 
+    // theme
+    (function(){
+    if(localStorage.getItem('theme')==='light') document.body.classList.add('light')
+    })()
+
+    function toggleTheme(){
+    document.body.classList.toggle('light')
+    localStorage.setItem('theme', document.body.classList.contains('light')?'light':'dark')
+    }
+
     function openAbout(){
         document.getElementById("about").style.display="flex"
     }
 
     function closeAbout(){
         document.getElementById("about").style.display="none"
+    }
+
+    function openCredits(){
+    document.getElementById("credits").style.display="flex"
+    }
+
+    function closeCredits(){
+    document.getElementById("credits").style.display="none"
     }
 
     document.addEventListener("keydown",e=>{
