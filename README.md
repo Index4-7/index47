@@ -27,7 +27,7 @@ definitions, or acronyms. This website simply solves all of these problems!
              5. Paste the file into a new file under docs folder, named [acronym or full form].html,
              6. Go through all the written comments and adapt them to your search including images and url embeds
              7. Go to index.html inside the docs folder, at line 151, add your search to the list as shown
-             8. In index.html add your search to the table of contents (line 103), in its full form
+             8. In index.html add your search to the table of contents (line 103), in its full form ALPHABETICALLY
              8. Add your name in contributors.html (NOT index.html), in the same format with github link
              9. Create a pull request to main
 
